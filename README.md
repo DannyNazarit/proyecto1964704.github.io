@@ -1,6 +1,6 @@
 # Danier Nazarit, Estudiante ADSI -SENA 👨🏾‍💻
 En este segundo trimestre, estamos viendo los siguientes temas:
-### I Actividad: Estructura HTML 🔧 :llave:
+### I Actividad: Estructura HTML 🔧
 Aprenderemos las etiquetas basicas, su orden y función.
 ### II Actividad: 📋
 Insertar imagenes, crear formularios y tablas 
