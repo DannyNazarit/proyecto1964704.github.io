@@ -1,34 +1,57 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <meta charset="UTF-8" />
+    <meta charset="UTF-8" />
     <title>Continuemos con CSS-COLOR</title>
-    <style type="text-css">
+    <style type="text/css">
       body {
-        background-color: rgb(red, green, blue);
-        color: white;
+        background-color:silver;
+        color: black;
         padding: 20px;
         font-family: arial, verdana, sans-serif;
       }
       h1 {
-        border: 2px solid #808080;
         background-color: darkcyan;
-        color: blue;
+
         padding: inherit;
       }
       h2 {
-        background-color: lightcyan;
-        color: rebeccapurple;
+        background-color: #0080c0;
+
         padding: inherit;
       }
+      h3 { background-color: darkcyan; padding: inherit;}
       p {
+        background-color: pink;
         color: (100, 100, 90);
         padding: inherit;
       }
-      .mytable {
+      p {padding: 5px;
+      margin: 0px; }
+      p.zero {background-color: rgb(238, 62, 128);}
+      p.one {background-color: rgb(244,90,139);}
+      p.two {background-color: rgb(243,106,152);}
+      p.three {background-color: rgb(244,123,166);}
+      p.four {background-color: rgb(245,140,178);}
+      p.five {background-color: rgb(246,159,192);}
+      p.six {background-color: rgb(245,176,204);}
+      p.seven {background-color: rgb(0,187,28);}
+      p.eight {background-color: rgb(140,202,242);}
+      p.nine {background-color: rgb(114,193,237);}
+      p.ten {background-color: rgb(84,182,237);}
+      p.eleven {background-color: rgb(48,170,233);}
+      p.twelve {background-color: rgb(0,160,230);}
+      p.thirteen {background-color: rgb(0,149,226);}
+      p.fourteen {background-color: rgb(0,136,221);}
+       .mytable {
         background-color: lemonchiffon;
         color: lightcoral;
         border: 3px solid;
+      }
+      .mytable th { color: lawngreen !important;}
+      i, a,
+      a:hover {
+        color: blue;
       }
       b {
         border: 2px solid #c0c0c0;
@@ -38,13 +61,66 @@
       }
     </style>
   </head>
-  <body>
+  <body background-color>
     <center>
-      <a
-        ><b><img src="./images/desarrolloresponsive.jpg" width="900" height="300"
-      /></b></a>
 
+        <a><img
+            src="./images/desarrolloresponsive.jpg"
+            width="900"
+            height="300" />
+    </a>
+
+      <h1>Top Lenguajes de Programación</h1>
+    </center>
+    <p>
+      En este espacio quiero contarte un poco más sobre
+      <a><b>lenguajes de programación</a></b> inicialmente enfocandonos en los que se
+      utilizan con más relevancia al momento de crear, diseñar y darle vida a
+      una pagina o sitio web.<br /> Muchas veces un cliente por alguna razón tiene cierto conocimiento sobre el lenguaje que desean que usemos para el <a>desarrollo web</a> o <a>desarrollo app</a> en su proyecto. Por eso es importante tener el conocimiento y la experiencia en cada uno de ellos, esto con el fin de crecer profesionalmente o no perder oportunidades de empezar a trazar una linea laborar y darte a conocer.
+    </p>
+    <h2>PHP</h2>
+    <P>El clásico <b>PHP</b> es un lenguaje muy extendido y fácil de aprender, y además, hay muchos desarrolladores que saben usar el lenguaje y lo usan para <a>desarrollar páginas web</a> u otros subsistemas de información.<br />
+
+      Es un lenguaje interpretado, que se entremezcla en su forma más natural, con el código <a>HTML y JAVASCRIPT</a> en las páginas. Eso dificulta a veces la separación del código y aislar las funcionalidades, pero para proyectos pequeños o medios, es una buena solución.</P>
+      <h2>ANGULAR</h2>
+      <P>Potenciado por Google, es un lenguaje de desarrollo muy versátil y que permite la creación de componentes de forma ágil. Es un potente <a href="https://es.wikipedia.org/wiki/Framework">framework</a> que permite fácilmente desarrollar soluciones complejas y de forma muy eficiente.</P>
+      <h2>REACT JS</h2>
+      <p>Similar concepto que Angular, también es un framework muy potente, quizás un paso atrás en este caso, pero una alternativa a tener muy en cuenta. Desarrollado y potenciado por facebook, también tiene sus defensores y sus detractores.</p>
+      <h2>JQUERY</h2>
+      <p>Potente y simple. Esta es la definición más clara de jQuery, un framework de javascript que permite multitud de funcionalidades a ejecutar en el navegador del usuario. Sus ya años de desarrollo hacen que sea un estándar que muchas webs incorporen de un modo u otro su potencia.</p>
+      <h2>WORDPRESS</h2>
+      <p>Si bien no es un lenguaje de programación como el resto, si queremos ponerlo en la lista. Puesto que se trata de un entorno de desarrollo CMS. Muchísimas webs, sobretodo las de tipo presencial sin grandes pretensiones, han hecho uso para su implementación. Basado en PHP y <a href="https://es.wikipedia.org/wiki/MySQL">mySql</a>, es una solución fácil y más económica que un proyecto a medida. Además, usando plantillas o plugins, rápidamente tenemos muchas funcionalidades y diversas para nuestro proyecto de desarrollo web.</p>
+<center>
+      <table class="mytable">
+        <h>TRES HERRAMIENTAS ESENCIALES PARA DESARROLLAR UNA PAGINA WEB</h>
+       <tr>
+          <th><img src="./images/html5.jpg" width="300" height="300"></th><th><img src="./images/logocss3.png" width="300" height="300"></th><th><img src="./images/java-logo.png" width="300" height="300>"></th>
+        </tr>
+        <tr>
+          <td>HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web</td>
+          <td>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​</td>
+          <td>JavaScript es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, ​ basado en prototipos, imperativo, débilmente tipado y dinámico.</td>
+        </tr>
+      </table>
+    </center>
+    <h3>Herramientas para Desarrollo</h3>
+    <p class="fourteen">Java</p>
+    <P class="thirteen">JavaScript</P>
+    <p class="twelve">Html</p>
+    <p class="eleven">Css</p>
+    <p class="ten">MySql</p>
+    <P class="nine">.Net core</P>
+    <p class="eight">Jquery</p>
+    <p class="seven">PHP</p>
+    <p class="six">Ruby</p>
+    <p class="five">Cshard</p>
+    <p class="four">Angular</p>
+    <p class="three">Python</p>
+    <p class="two">NodeJs</p>
+    <p class="one">Vue</p>
+    <p class="zero">React</p>
+    <div>El mundo del desarrollp web o desarrollo de aplicaciones nos ofrecen un amplio numero de herramientas que nos permiten la creación desde cero como la modificación de las mismas. Estas herramientas las podemos aprender dependiento delproyecto que se este trabajando, lo que desee el jefe del proyecto o la capacidad de nuestro aprendizaje. Herramientas tanto del lado del servidor como del cliente son todo lo que necesitamos para desempeñarlos dentro de este mundo pero hay que tener en claro las buenas practicas tanto para desarrolladores, programador o como deseen llamarlo. </div>
+    <a href="///C:/xampp/htdocs/sena/index.html">Bitacora</a>
+    <h6><a href="./actividad_07.html">Página Siguiente</a></h6>
   </body>
-  <h1>Top Lenguajes de Programación</h1>
-</center>
 </html>
